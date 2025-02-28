@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background: blue;
+    color: white;
+    padding: 10px 20px;
+}
+
+.menu ul, .auth ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.menu a, .auth a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu {
+    flex: 1;
+}
+
+.auth {
+    display: flex;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 20px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center; 
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.gallery img {
+    height: 100px;
+    width: auto;
+    margin: 5px;
+}
+
+.searchform {
+    display: flex;
+    justify-content: center; 
+    gap: 10px;
+    margin-top: 20px; /* Отступ сверху для улучшения визуального восприятия */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #f8f8f8;
+    width: 100%;
+}
+h1{
+    color: blue;
+    font-size: 24px;
+}
+
+
+
+.searchbutton {
+    background-color: blue; 
+    color: white; 
+    padding: 15px 30px; 
+    cursor: pointer; 
+    font-size: 18px;
+    border-radius: 5px; 
+}
+
+.searchbutton:hover {
+    background-color: lightskyblue; 
+}
+.recentgallery img {
+    width: 165px; 
+    height: auto; 
+    margin: 5px; 
+}
+
